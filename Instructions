@@ -1,0 +1,4 @@
+The user is now allowed to use the “MRV”, “LCV”, and “DH” token to tell the program to use the MRV heuristic, LCV heuristics, and/or DH heuristic to solve the Sudoku problem (if possible).
+If there is no token, then it’ll run backtracking search.
+
+The user can type “./main input.txt output.txt 10 FC MRV LCV DH” (for example) to tell the program to read the file “input.txt”, solve the Sudoku problem using forward checking with the MRV, LCV, and DH heuristics in 10 seconds or less if possible, and to output the results into “output.txt”.
